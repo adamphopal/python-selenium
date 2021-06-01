@@ -6,7 +6,7 @@ import os
 #This script goes into craiglist, and finds the electronics link, and finds
 #the xpath element, then the class name hdlnk, then posts all the texts into terminal
 
-chrome_path='/Users/samehphopal/downloads/chromedriver'
+chrome_path=''
 driver = webdriver.Chrome(chrome_path)
 driver.get("http://vancouver.craigslist.com")
 driver.find_element_by_xpath("""//*[@id="sss0"]/li[19]/a""").click()
